@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+    <meta name="description" content="Neem contact met mij op" />
+    <meta name="author" content="Daan Vannueten" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/contact.css" />
+    <link rel="shortcut icon" href="../images/favicon.ico" />
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">Daan Vannueten</a>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="curriculum.html">Curriculum Vitae</a>
+                <a href="ervaring.html">Ervaring</a>
+                <a href="hobby.html">Hobby's</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="image-container">
+        <img src="../images/achtergrond.jpg" alt="Achtergrond" class="background-img" />
+        <div class="centered-text">
+            <h1 class="titel">Neem Contact Op</h1>
+        </div>
+    </div>
+    
+    <main>
+        <section>
+            <h2>Hoe kan een werkgever mij bereiken?</h2>
+            <p>Je kunt me op verschillende manieren bereiken. Hier zijn mijn contactgegevens:</p>
+            <ul>
+                <li>
+                    <strong>E-mail:</strong>
+                    <a href="mailto:vannuetendaan@gmail.com">vannuetendaan@gmail.com</a>
+                </li>
+                <li>
+                    <strong>LinkedIn:</strong>
+                    <a href="https://www.linkedin.com/in/daan-vannueten/" target="_blank">Bekijk mijn LinkedIn profiel</a>
+                </li>
+            </ul>
+            <p>Vul onderstaand formulier in om een vraag of bericht te sturen.</p>
+        </section>
+
+        <section>
+            <h2>Contactformulier</h2>
+            <form action="https://tm-statweb.be/forms.php" method="post">
+                <label for="naam">Naam:</label>
+                <input type="text" id="naam" name="naam" required />
+
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" id="voornaam" name="voornaam" required />
+
+                <label for="adres">Adres:</label>
+                <input type="text" id="adres" name="adres" required />
+
+                <label for="woonplaats">Woonplaats:</label>
+                <input type="text" id="woonplaats" name="woonplaats" required />
+
+                <label for="land">Land:</label>
+                <input type="text" id="land" name="land" required />
+
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="telefoon">Telefoon:</label>
+                <input type="tel" id="telefoon" name="telefoon" required />
+
+                <label for="linkedin">LinkedIn:</label>
+                <input type="url" id="linkedin" name="linkedin" />
+
+                <label for="discord">Discord:</label>
+                <input type="text" id="discord" name="discord" />
+
+                <label for="skills">Interesse in skills:</label>
+                <select id="skills" name="skills" required>
+                    <option value="" disabled selected>Kies een optie</option>
+                    <option value="programmeren">Programmeren</option>
+                    <option value="design">Design</option>
+                    <option value="marketing">Marketing</option>
+                    <option value="data-analyse">Data Analyse</option>
+                </select>
+
+                <label for="vraag">Vraag:</label>
+                <textarea id="vraag" name="vraag" rows="4" required></textarea>
+                <input type="hidden" name="studentemail" value="r0986730@student.thomasmore.be" />
+
+                <button type="submit">Verstuur</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer bg-teal text-white pt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <p>&copy; 2024 Daan Vannueten</p>
+                </div>
+                <div class="col-md-6 text-md-right">
+                    <a href="https://www.facebook.com/daan.vannueten/" class="text-white mr-3" target="_blank">
+                        <i class="fab fa-facebook"></i> Facebook
+                    </a>
+                    <a href="https://www.instagram.com/daan_vn/" class="text-white mr-3" target="_blank">
+                        <i class="fab fa-instagram"></i> Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/dea3226995.js" crossorigin="anonymous"></script>
+</body>
+</html>
