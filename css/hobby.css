@@ -10,14 +10,14 @@ body {
 header {
     background-color: #11999E;
     padding: 20px 0;
-    position: relative; /* Enables z-index to work */
-    z-index: 10; /* Ensures header is above the image container */
+    position: relative;
+    z-index: 10;
 }
 
 nav {
     display: flex;
-    flex-direction: column; /* Start with a vertical layout */
-    align-items: center; /* Center items */
+    flex-direction: column;
+    align-items: center;
     padding: 0 20px;
 }
 
@@ -31,9 +31,9 @@ nav {
 .nav-links {
     list-style: none;
     padding: 0;
-    display: flex; /* Initially hidden */
-    flex-direction: column; /* Stack vertically */
-    align-items: center; /* Center links */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .nav-links li {
@@ -53,18 +53,18 @@ nav {
 
 @media (min-width: 769px) {
     nav {
-        flex-direction: row; /* Change to horizontal layout */
-        justify-content: space-between; /* Distribute space */
+        flex-direction: row;
+        justify-content: space-between;
     }
 
     .nav-links {
-        display: flex; /* Show links */
-        flex-direction: row; /* Arrange links horizontally */
-        align-items: center; /* Align links vertically */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
     }
 
     .nav-links a {
-        margin: 0 15px; /* Space between links */
+        margin: 0 15px;
     }
 }
 
@@ -89,7 +89,7 @@ nav {
 }
 
 .titel {
-    color:#f4f4f4;
+    color: #f4f4f4;
 }
 
 main {
@@ -125,24 +125,21 @@ footer {
 }
 
 .carousel-img {
-    width: 100%; /* Ensures image takes full width of the carousel */
-    height: 400px; /* Set a fixed height for all carousel images */
-    object-fit: cover; /* This will cover the entire area while maintaining aspect ratio */
-    border-radius: 8px; /* Optional: Add rounded corners */
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
-    padding: 10px; /* Space around text */
-    border-radius: 5px; /* Rounded corners for caption */
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
 }
 
-
-
-/* Ensure mobile responsiveness */
 @media (max-width: 600px) {
     .carousel-caption {
-        font-size: 14px; /* Adjust caption text size on smaller screens */
+        font-size: 14px;
     }
 }
 
@@ -161,10 +158,10 @@ footer {
     color: #ff6b6b;
 }
 
-/* Footer Color Update */
 .bg-teal {
     background-color: #11999E;
 }
+
 .text-white {
     color: white;
 }
@@ -178,7 +175,6 @@ footer {
 .text-white a:hover {
     color: #ff6b6b;
 }
-
 
 @media (max-width: 600px) {
     .nav-links {

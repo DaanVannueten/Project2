@@ -1,151 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Portfolio - Start Pagina" />
-  <meta name="author" content="Daan Vannueten" />
-  <title>Portfolio - Daan Vannueten</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
-  <link rel="stylesheet" href="../CSS/index.css" />
-  <link rel="shortcut icon" href="../images/favicon.ico" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Portfolio - Start Pagina" />
+    <meta name="author" content="Daan Vannueten" />
+    <title>Portfolio - Daan Vannueten</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" />
+  </head>
 
-<body>
-  <header>
-    <nav>
-      <div class="logo">
-        <a href="index.html">Daan Vannueten</a>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">Daan Vannueten</a>
+        </div>
+        <div class="nav-links" id="navLinks">
+          <a href="curriculum.html">Curriculum Vitae</a>
+          <a href="ervaring.html">Ervaring</a>
+          <a href="hobby.html">Hobby's</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <div class="image-container">
+      <img
+        src="images/achtergrond.jpg"
+        alt="Achtergrondafbeelding"
+        class="background-img"
+      />
+      <div class="centered-text">
+        <h1 class="titel">Welkom op mijn portfolio!</h1>
+        <h2 class="titel">Daan Vannueten</h2>
       </div>
-      <div class="nav-links" id="navLinks">
-        <a href="curriculum.html">Curriculum Vitae</a>
-        <a href="ervaring.html">Ervaring</a>
-        <a href="hobby.html">Hobby's</a>
-        <a href="contact.html">Contact</a>
+    </div>
+
+    <main>
+      <div class="jumbotron text-center">
+        <h1 class="display-4">Hallo, ik ben Daan!</h1>
+        <p class="lead">
+          Dit is mijn portfolio waar je meer kunt leren over mijn werk en
+          interesses.
+        </p>
+        <a class="btn btn-primary btn-lg" href="contact.html" role="button"
+          >Neem contact op!</a
+        >
       </div>
-    </nav>
-  </header>
 
-  <div class="image-container">
-    <img src="../images/achtergrond.jpg" alt="Achtergrondafbeelding" class="background-img" />
-    <div class="centered-text">
-      <h1 class="titel">Welkom op mijn portfolio!</h1>
-      <h2 class="titel">Daan Vannueten</h2>
-    </div>
-  </div>
-
-  <main>
-    <div class="jumbotron text-center">
-      <h1 class="display-4">Hallo, ik ben Daan!</h1>
-      <p class="lead">Dit is mijn portfolio waar je meer kunt leren over mijn werk en interesses.</p>
-      <a class="btn btn-primary btn-lg" href="contact.html" role="button">Neem contact op!</a>
-    </div>
-
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card">
-            <img src="../images/Mezelf.jpg" class="card-img-top" alt="Mezelf">
-            <div class="card-body">
-              <h5 class="card-title">Curriculum Vitae</h5>
-              <p class="card-text">Hier vind je alles over mijn studies en waarom ik programmeur wil worden.</p>
-              <a href="curriculum.html" class="btn btn-primary">Bekijk Pagina</a>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/Mezelf.jpg" class="card-img-top" alt="Mezelf" />
+              <div class="card-body">
+                <h5 class="card-title">Curriculum Vitae</h5>
+                <p class="card-text">
+                  Hier vind je alles over mijn studies en waarom ik programmeur
+                  wil worden.
+                </p>
+                <a href="curriculum.html" class="btn btn-primary"
+                  >Bekijk Pagina</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img src="images/werk.jpg" class="card-img-top" alt="Ervaring" />
+              <div class="card-body">
+                <h5 class="card-title">Ervaring</h5>
+                <p class="card-text">
+                  Hier vind je mijn alles over mijn werkervaring.
+                </p>
+                <a href="ervaring.html" class="btn btn-primary"
+                  >Bekijk Pagina</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card">
+              <img
+                src="images/fietsen.jpg"
+                class="card-img-top"
+                alt="hobbies"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Hobbies</h5>
+                <p class="card-text">
+                  Hier vind je alles terug over mijn hobbies en wat ik in mijn
+                  vrije tijd doe.
+                </p>
+                <a href="hobby.html" class="btn btn-primary">Bekijk Pagina</a>
+              </div>
             </div>
           </div>
         </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="../images/werk.jpg" class="card-img-top" alt="Ervaring">
-            <div class="card-body">
-              <h5 class="card-title">Ervaring</h5>
-              <p class="card-text">Hier vind je mijn alles over mijn werkervaring.</p>
-              <a href="ervaring.html" class="btn btn-primary">Bekijk Pagina</a>
-            </div>
+      </div>
+
+      <section class="introduction">
+        <h2>Wie ben ik?</h2>
+        <p>
+          Hallo, ik ben Daan Vannueten, een student programmeren met een passie
+          voor technologie en IT. Ik ben momenteel bezig met mijn studies in
+          programmeren en werk hard om mijn vaardigheden te verbeteren in het
+          ontwikkelen van softwareoplossingen.
+        </p>
+      </section>
+
+      <section class="skills">
+        <h2>Waar ben ik goed en slecht in?</h2>
+        <p>
+          <strong>Goed in:</strong> Probleemoplossend denken, leren van nieuwe
+          technologieën, en samenwerken in teamverband.
+        </p>
+        <p>
+          <strong>Slecht in:</strong> Multitasking en geduldig wachten op lange
+          processen.
+        </p>
+      </section>
+
+      <section class="interests">
+        <h2>Waar liggen mijn interesses?</h2>
+        <p>
+          Ik ben gepassioneerd door technologie en IT, vooral in het ontwikkelen
+          van software en het oplossen van technische problemen. Klik
+          <a href="hobby.html">hier</a> om meer over mijn interesses te weten te
+          komen.
+        </p>
+      </section>
+
+      <section class="hobbies">
+        <h2>Wat zijn mijn hobby's?</h2>
+        <p>
+          Naast programmeren heb ik verschillende hobby's zoals gamen, sporten
+          en het volgen van technologische trends. Klik
+          <a href="hobby.html">hier</a> voor meer over mijn hobby's.
+        </p>
+      </section>
+
+      <section class="studies">
+        <h2>Welke studies heb ik gedaan?</h2>
+        <p>
+          Ik heb mijn diploma Ondernemen & Marketing behaald en ben nu bezig met
+          mijn graduaat programmeren. Klik
+          <a href="ervaring.html">hier</a> om meer te weten te komen over mijn
+          studies en ervaringen.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer bg-teal text-white pt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <p>&copy; 2024 Daan Vannueten</p>
           </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card">
-            <img src="../images/fietsen.jpg" class="card-img-top" alt="hobbies">
-            <div class="card-body">
-              <h5 class="card-title">Hobbies</h5>
-              <p class="card-text">Hier vind je alles terug over mijn hobbies en wat ik in mijn vrije tijd doe.</p>
-              <a href="hobby.html" class="btn btn-primary">Bekijk Pagina</a>
-            </div>
+          <div class="col-md-6 text-md-right">
+            <a
+              href="https://www.facebook.com/daan.vannueten/"
+              class="text-white mr-3"
+              target="_blank"
+            >
+              <i class="fab fa-facebook"></i> Facebook
+            </a>
+            <a
+              href="https://www.instagram.com/daan_vn/"
+              class="text-white mr-3"
+              target="_blank"
+            >
+              <i class="fab fa-instagram"></i> Instagram
+            </a>
           </div>
         </div>
       </div>
-    </div>
+    </footer>
 
-    <section class="introduction">
-      <h2>Wie ben ik?</h2>
-      <p>
-        Hallo, ik ben Daan Vannueten, een student programmeren met een passie
-        voor technologie en IT. Ik ben momenteel bezig met mijn studies in
-        programmeren en werk hard om mijn vaardigheden te verbeteren in het
-        ontwikkelen van softwareoplossingen.
-      </p>
-    </section>
-
-    <section class="skills">
-      <h2>Waar ben ik goed en slecht in?</h2>
-      <p>
-        <strong>Goed in:</strong> Probleemoplossend denken, leren van nieuwe
-        technologieën, en samenwerken in teamverband.
-      </p>
-      <p>
-        <strong>Slecht in:</strong> Multitasking en geduldig wachten op lange
-        processen.
-      </p>
-    </section>
-
-    <section class="interests">
-      <h2>Waar liggen mijn interesses?</h2>
-      <p>
-        Ik ben gepassioneerd door technologie en IT, vooral in het ontwikkelen
-        van software en het oplossen van technische problemen. Klik
-        <a href="hobby.html">hier</a> om meer over mijn interesses te weten te
-        komen.
-      </p>
-    </section>
-
-    <section class="hobbies">
-      <h2>Wat zijn mijn hobby's?</h2>
-      <p>
-        Naast programmeren heb ik verschillende hobby's zoals gamen, sporten
-        en het volgen van technologische trends. Klik
-        <a href="hobby.html">hier</a> voor meer over mijn hobby's.
-      </p>
-    </section>
-
-    <section class="studies">
-      <h2>Welke studies heb ik gedaan?</h2>
-      <p>
-        Ik heb mijn diploma Ondernemen & Marketing behaald en ben nu bezig
-        met mijn graduaat programmeren. Klik
-        <a href="ervaring.html">hier</a> om meer te weten te komen over mijn
-        studies en ervaringen.
-      </p>
-    </section>
-  </main>
-
-  <footer class="footer bg-teal text-white pt-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mb-3">
-          <p>&copy; 2024 Daan Vannueten</p>
-        </div>
-        <div class="col-md-6 text-md-right">
-          <a href="https://www.facebook.com/daan.vannueten/" class="text-white mr-3" target="_blank">
-            <i class="fab fa-facebook"></i> Facebook
-          </a>
-          <a href="https://www.instagram.com/daan_vn/" class="text-white mr-3" target="_blank">
-            <i class="fab fa-instagram"></i> Instagram
-          </a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="https://kit.fontawesome.com/dea3226995.js" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://kit.fontawesome.com/dea3226995.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
